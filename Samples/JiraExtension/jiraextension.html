@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>JiraExtension</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+
+    <script src="../../lib/tableau.extensions.1.latest.js"></script>
+    <script src="./jiraextension.js"></script>
+
+</head>
+
+<body>
+    <h2>Hello from <span class="sheet_name" id="choose_sheet_title"></span></h2>
+    <div class="container mb-3">
+        <div class="row">
+            <div class="col">
+                <h3>Jira Configuration</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label>Jira Host:</label>
+            </div>
+            <div class="col">
+                <input type="text" size="50" id="jiraUrl"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label>Jira Username:</label>
+            </div>
+            <div class="col">
+                <input type="text" size="50" id="jiraUsername"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label>Jira Password:</label>
+            </div>
+            <div class="col">
+                <input type="password" size="50" id="jiraPassword"/>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="worksheets">
+        <div class="row">
+            <div class="col">
+                <h3>Report Issues</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

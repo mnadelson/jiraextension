@@ -6,7 +6,7 @@ module.exports = {
   entry: {
     datasources: './Samples-Typescript/DataSources/datasources.ts',
     filtering: './Samples-Typescript/Filtering/filtering.ts',
-    parameters: './Samples-Typescript/Parameters/parameters.ts',
+    parameters: './Samples-Typescript/Parameters/parameters.ts'
   },
   mode: 'production',
   output: {
